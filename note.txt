@@ -1,0 +1,17 @@
+Within Lambda add Environment as below:
+
+DEFAULT_TAGS  tag:project=test
+LOG_LEVEL     INFO
+
+
+Go Lambda Function under Test you might need to give a json formatted code.
+
+{
+    "action": "stop"
+}
+
+same from start:
+
+{
+    "action": "start"
+}
